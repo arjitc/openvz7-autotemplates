@@ -28,3 +28,24 @@ Automatically install and cache the important OpenVZ 7 templates (CentOS/Debian/
     ubuntu-18.04-x86_64                factory
     vzlinux-6-x86_64                   factory
     vzlinux-7-x86_64                   factory
+
+## Installing the template
+
+To install a template, 
+
+    vzpkg install template <template name>
+
+For example,
+
+    vzpkg install template centos-6-x86_64
+    
+## Caching the template
+
+To cache a template, 
+
+    vzpkg create cache <template name>
+
+For example,
+
+    vzpkg create cache centos-6-x86_64
+    
