@@ -4,6 +4,7 @@ Automatically install and cache the important OpenVZ 7 templates (CentOS/Debian/
 ## Listing available OpenVZ 7 Templates
 
     [root@local ~]# vzpkg list --available
+    centos-6-x86_64                    factory
     centos-7-x86_64                    factory
     debian-7.0-x86_64                  factory
     debian-8.0-x86_64                  factory
