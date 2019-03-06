@@ -1,6 +1,12 @@
 # openvz7-autotemplates
 Automatically install and cache the important OpenVZ 7 templates (CentOS/Debian/Ubuntu)
 
+## Running the script
+
+    wget https://raw.githubusercontent.com/arjitc/openvz7-autotemplates/master/load.sh
+    chmod +x load.sh
+    sh load.sh
+
 ## Listing available OpenVZ 7 Templates
 
     [root@local ~]# vzpkg list --available
